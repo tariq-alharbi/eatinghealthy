@@ -6,10 +6,10 @@ import pymysql.cursors
 ssl_context = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
 
 mydb = pymysql.connect(
-  host="ap-south.connect.psdb.cloud",
-  user="ztlsi70lnvxkck25qq2c",
-  password="pscale_pw_qCBr6RoYBYKni5sIfBcribmFKLzRLN8rLe0FtBP0qLu",
-  database='eatinghealthy',
+  host="",
+  user="",
+  password="",
+  database='',
   ssl={
         'ca': './cacert-2023-01-10.pem'
     }
